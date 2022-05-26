@@ -1,0 +1,45 @@
+@use '../../assets/styles/mixins.scss' as*;
+@import '../../assets/styles/variables';
+
+.navigation{
+    @include tekoBase;
+    width: 100%;
+    height: 56px;
+    background-color: $color-white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 17px;
+    padding-right: 23px;
+}
+
+.menu {
+    width: 89px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 40px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger{
+    height: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    background-color: $color-white;
+}
+
+.dash {
+    width: 21px;
+    height: 1px;
+    background-color: $color-regular-black;
+}
