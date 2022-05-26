@@ -10,7 +10,7 @@ const NavigationBar = () => {
             <div className={'navigation'}>
                 <BlackDeptIcon/>
                 <div className='menu'>
-                    <span className="content">MENU</span>
+                    <span className="content">Menu</span>
                     <button className='hamburger'>
                         <span className='dash'></span>
                         <span className='dash'></span>
@@ -18,8 +18,11 @@ const NavigationBar = () => {
                 </div>
             </div>
             <div className='hero'>
-                <h1 className='header-title'>WORK</h1>
+                <h1 className='header-title'>Work</h1>
             </div>
+            <button className='cta-button'>
+                View case
+            </button>
         </>
     ) : (<div> Desktop Bar</div>);
 }

@@ -27,6 +27,7 @@
     height: 34px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
 }
 
 .hamburger{
@@ -55,5 +56,22 @@
 
 .header-title {
     @include tekoMobileHero;
+    text-transform: uppercase;
     margin-left: 24px;
+}
+
+.cta-button {
+    width: 378px;
+    height: 55px;
+    border: 1px solid $color-regular-black;
+    background-color: $color-regular-black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 17px auto 0;
 }
