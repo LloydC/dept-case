@@ -6,7 +6,7 @@
     width: 100%;
     height: 56px;
     background-color: $color-white;
-    border: 1px solid black;
+    // border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,7 @@
 
 .dash {
     width: 21px;
-    height: 1px;
+    height: 2px;
     background-color: $color-regular-black;
 }
 
@@ -48,4 +48,12 @@
     width: 100%;
     height: 261px;
     background-image: url('../../assets/images/image34.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-title {
+    @include tekoMobileHero;
+    margin-left: 24px;
 }
