@@ -3,7 +3,16 @@ import { ReactComponent as ClosingIcon } from '../../../assets/icons/closing-whi
 import './MobileMenu.scss';
 
 const MobileMenu = ({ boxVisibility, setBoxVisibility }) => {
-    return (<div className='mobile-container'><WhiteDeptIcon /><ClosingIcon onClick={()=> setBoxVisibility(!boxVisibility)}/></div>);
+    const menuItems = ["Home","Work", "Culture", "Services","Partners", "Stories", "Careers", "Events", "Contact"];
+    return (
+        <div style ={{ height:'auto',display: 'flex', flexDirection: 'column', background: 'black'}}>
+            <div className='mobile-container'>
+                <WhiteDeptIcon /><ClosingIcon onClick={()=> setBoxVisibility(!boxVisibility)}/>
+            </div>
+            <ul className='list'>
+                {menuItems.map(item => <li className='list-item'>{item}</li>)}
+            </ul>
+        </div>);
 }
 
 export default MobileMenu;
