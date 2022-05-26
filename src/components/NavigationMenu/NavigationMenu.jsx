@@ -1,9 +1,12 @@
 import './NavigationMenu.scss';
+import MobileMenu from './MobileMenu/MobileMenu';
+import DesktopMenu from './DesktopMenu/DesktopMenu';
+import useIsMobile from '../../utils/useIsMobile'; 
 
 const NavigationMenu = () => {
-    return (
-        <div className='menu-container'>
+    const isMobile = useIsMobile();
 
-        </div>
-    );
-}
+    return isMobile ? (<MobileMenu />) : (<DesktopMenu />);
+};
+
+export default NavigationMenu;
