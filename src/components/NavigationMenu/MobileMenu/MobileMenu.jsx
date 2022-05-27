@@ -1,5 +1,6 @@
 import { ReactComponent as WhiteDeptIcon } from '../../../assets/icons/DEPT-white-icon.svg'
 import { ReactComponent as ClosingIcon } from '../../../assets/icons/closing-white-icon.svg';
+import { ReactComponent as ArrowIcon } from '../../../assets/icons/polygon-menu-icon.svg';
 import './MobileMenu.scss';
 
 const MobileMenu = ({ boxVisibility, setBoxVisibility }) => {
@@ -10,7 +11,15 @@ const MobileMenu = ({ boxVisibility, setBoxVisibility }) => {
                 <WhiteDeptIcon /><ClosingIcon onClick={()=> setBoxVisibility(!boxVisibility)}/>
             </div>
             <ul className='list'>
-                {menuItems.map((item, i) => <li key={i} className='list-item'>{item}</li>)}
+                {menuItems.map((item, i) =>{
+                    if(i === 0){
+                        return(<>
+                
+                        <li key={i} className='first-item'><ArrowIcon style={{ marginRight: '10.5px'}} />{item}</li>
+                        </>)
+                    }
+                    return  <li key={i} className='list-item'>{item}</li>;
+                })}
             </ul>
         </div>);
 }

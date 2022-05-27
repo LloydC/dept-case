@@ -17,6 +17,7 @@
 
 .list-item {
     @include tekoLarge;
+    text-transform: uppercase;
     border-bottom: 1px solid $color-white;
     background-color: $color-regular-black;
     color: $color-white;
