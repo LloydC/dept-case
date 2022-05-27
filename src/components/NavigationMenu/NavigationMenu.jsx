@@ -5,7 +5,6 @@ import useIsMobile from '../../utils/useIsMobile';
 
 const NavigationMenu = () => {
     const isMobile = useIsMobile();
-
     return isMobile ? (<MobileMenu />) : (<DesktopMenu />);
 };
 

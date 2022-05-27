@@ -1,15 +1,21 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import { ReactComponent as BlackDeptIcon } from '../../../assets/icons/DEPT-black-icon.svg'
+import DesktopMenu from '../../NavigationMenu/DesktopMenu/DesktopMenu';
 import './HeaderDesktop.scss';
 
 const HeaderDesktop = () => {
-  return (
+    const [boxVisibility, setBoxVisibility] = useState(false);
+    useEffect( ()=>{
+        console.log(boxVisibility);
+    },[boxVisibility])
+
+    return boxVisibility ? <DesktopMenu boxVisibility={boxVisibility} setBoxVisibility={setBoxVisibility}/> :(
     <div className='header-container'>
         <div className='navigation-desktop'>
             <BlackDeptIcon/>
             <div className='menu'>
                 <span className="name">Menu</span>
-                <button className='hamburger-desktop'>
+                <button className='hamburger-desktop' onClick={()=> setBoxVisibility(!boxVisibility)}>
                     <span className='dash'></span>
                     <span className='dash'></span>
                 </button>

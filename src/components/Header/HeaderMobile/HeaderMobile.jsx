@@ -6,7 +6,7 @@ import './HeaderMobile.scss';
 const HeaderMobile = () => {
     const [boxVisibility, setBoxVisibility] = useState(false);
 
-    return boxVisibility ? <MobileMenu/> : (
+    return boxVisibility ? <MobileMenu boxVisibility={boxVisibility} setBoxVisibility={setBoxVisibility} /> : (
         <>
             <div className={'navigation'}>
                 <BlackDeptIcon/>
