@@ -10,7 +10,7 @@ const MobileMenu = ({ boxVisibility, setBoxVisibility }) => {
                 <WhiteDeptIcon /><ClosingIcon onClick={()=> setBoxVisibility(!boxVisibility)}/>
             </div>
             <ul className='list'>
-                {menuItems.map(item => <li className='list-item'>{item}</li>)}
+                {menuItems.map((item, i) => <li key={i} className='list-item'>{item}</li>)}
             </ul>
         </div>);
 }

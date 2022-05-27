@@ -1,7 +1,7 @@
 import { ReactComponent as BlackDeptIcon } from '../../assets/icons/DEPTBlack.svg'
-import './MobileBar.scss';
+import './HeaderMobile.scss';
 
-const MobileBar = () => {
+const HeaderMobile = () => {
     return (
         <div className={'navigation'}>
             <BlackDeptIcon/>
@@ -16,4 +16,4 @@ const MobileBar = () => {
     );
 }
 
-export default MobileBar;
+export default HeaderMobile;

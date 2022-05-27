@@ -2,9 +2,9 @@ import { ReactComponent as BlackDeptIcon } from '../../assets/icons/DEPT-black-i
 import { useState } from 'react';
 import useIsMobile from '../../utils/useIsMobile'; 
 import MobileMenu from '../NavigationMenu/MobileMenu/MobileMenu';
-import './NavigationBar.scss';
+import './Header.scss';
 
-const NavigationBar = () => {
+const Header = () => {
     const [boxVisibility, setBoxVisibility] = useState(false);
     const isMobile = useIsMobile();
    
@@ -30,4 +30,4 @@ const NavigationBar = () => {
     return isMobile ? HeaderMobile : (<div> Desktop Bar</div>);
 }
 
-export default NavigationBar;
+export default Header;
