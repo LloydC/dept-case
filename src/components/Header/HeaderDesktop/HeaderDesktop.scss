@@ -11,17 +11,32 @@
     flex-direction: column;
 }
 
-.navigation {
+.navigation-desktop {
     width: 100%;
     height: 85px;
     background-color: transparent;
     padding-left: 36px;
     padding-right: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hamburger {
+.hamburger-desktop {
+    height: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
     background-color: transparent;
 }
+
+.dash {
+    width: 21px;
+    height: 2px;
+    background-color: $color-regular-black;
+}
+
 .underliner{
     width: 90.1%;
     margin: 0 auto;

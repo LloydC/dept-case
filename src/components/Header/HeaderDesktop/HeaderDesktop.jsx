@@ -5,11 +5,11 @@ import './HeaderDesktop.scss';
 const HeaderDesktop = () => {
   return (
     <div className='header-container'>
-        <div className='navigation'>
+        <div className='navigation-desktop'>
             <BlackDeptIcon/>
             <div className='menu'>
                 <span className="name">Menu</span>
-                <button className='hamburger'>
+                <button className='hamburger-desktop'>
                     <span className='dash'></span>
                     <span className='dash'></span>
                 </button>
