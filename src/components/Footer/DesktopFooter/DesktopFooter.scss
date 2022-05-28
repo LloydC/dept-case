@@ -1,0 +1,22 @@
+@import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/mixins.scss';
+
+.footer-desktop-container {
+    width: 100vw;
+    height: 500px;
+    background-color: $background-footer;
+    color: $text-footer-primary;
+    display: flex;
+    flex-direction: column;
+}
+
+ul, .top-desktop, .footer-menu-desktop {
+    display: flex;
+}
+.top-desktop {
+    justify-content: space-between;
+}
+.bottom-desktop {
+    color: $text-footer-secondary;
+    border-top: 1px solid #3E3E3E;
+}

@@ -1,5 +1,11 @@
 @import './variables';
 
+@mixin media {
+    @media (min-width: 768px){
+        @content;
+    }
+}
+
 @mixin tekoBase {
     font-family: 'Teko', sans-serif;
     font-size: $font5;
