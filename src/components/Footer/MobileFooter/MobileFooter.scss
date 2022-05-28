@@ -14,11 +14,11 @@ li:hover {
     padding: 54px 36px 0;
 }
 
-.top {
+.top-mobile {
     display: flex;
 }
 
-.bottom {
+.bottom-mobile {
     border-top: 1px solid #3E3E3E;
     color: $text-footer-secondary;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,14 +28,16 @@ li:hover {
     flex-direction: column;
     padding-top: 45px;
 }
-.footer-menu, .socialMedia {
+.footer-menu-mobile, .socialMedia-mobile {
     width: 50vw;
     height: auto;
     display: flex;
-    
 }
-
-.socialMedia {
+.footer-menu-mobile > ul, .socialMedia-mobile > ul {
+    display: flex;
+    flex-direction: column;
+}
+.socialMedia-mobile {
     justify-content: flex-end;
 }
 

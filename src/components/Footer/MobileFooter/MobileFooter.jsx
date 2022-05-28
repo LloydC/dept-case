@@ -9,19 +9,19 @@ const MobileFooter = () => {
     const icons = [<FacebookIcon/>, <TwitterIcon/>, <InstagramIcon/>];
   return (
     <div className='footer-container'>
-        <div className="top">
-            <div className="footer-menu">
+        <div className="top-mobile">
+            <div className="footer-menu-mobile">
                 <ul>
                 {menu.map((item,i) => <li key={i} className='list-item'>{item}</li>)}
                 </ul>
             </div>
-            <div className="socialMedia">
+            <div className="socialMedia-mobile">
                 <ul>
                     {icons.map((icon,i) => <li key={i} className='icon-item'>{icon}</li>)}
                 </ul>
             </div>
         </div>
-        <div className="bottom">
+        <div className="bottom-mobile">
             <span>Chamber of Commerce: 63464101</span>
             <span>VAT: NL 8552.47.502.B01</span>
             <span>Terms and conditions</span>
