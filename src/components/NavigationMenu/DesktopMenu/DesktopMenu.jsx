@@ -9,8 +9,8 @@ const DesktopMenu = ({ boxVisibility, setBoxVisibility }) => {
             <div className='desktop-container'>
                 <WhiteDeptIcon /><ClosingIcon onClick={()=> setBoxVisibility(!boxVisibility)}/>
             </div>
-            <ul className='list'>
-                {menuItems.map((item, i) => <li key={i} className='list-item'>{item}</li>)}
+            <ul className='list-menu-desktop'>
+                {menuItems.map((item, i) => <li key={i} className='list-item-menu-desktop'>{item}</li>)}
             </ul>
         </div>);
 }
