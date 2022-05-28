@@ -2,7 +2,7 @@
 @import '../../../assets/styles/variables';
 
 .header-container {
-    width: 100%;
+    width: 100vw;
     // height: 713px;
     height: 67.71%;
     background-image: url('../../../assets/images/image34.jpg');
@@ -12,7 +12,7 @@
 }
 
 .navigation-desktop {
-    width: 100%;
+    width: 100vw;
     height: 85px;
     background-color: transparent;
     padding-left: 36px;
