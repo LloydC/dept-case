@@ -2,7 +2,7 @@
 @import '../../../assets/styles/mixins.scss';
 
 .desktop-container {
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background-color: $color-regular-black;
     color: $color-white;
@@ -12,10 +12,12 @@
 }
 
 .list {
+  width: 100vw;
   margin: 0 16px 0;
 }
 
 .list-item {
+  width: 100vw;
     @include tekoLarge;
     text-transform: uppercase;
     border-bottom: 1px solid $color-white;
