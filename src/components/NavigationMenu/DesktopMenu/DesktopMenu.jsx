@@ -5,7 +5,7 @@ import './DesktopMenu.scss';
 const DesktopMenu = ({ boxVisibility, setBoxVisibility }) => {
     const menuItems = ["Home","Work", "Culture", "Services","Partners", "Stories", "Careers", "Events", "Contact"];
     return (
-        <div style ={{ height:'auto',display: 'flex', flexDirection: 'column', background: 'black'}}>
+        <div style ={{ height:'100vh',display: 'flex', flexDirection: 'column', background: 'black', paddingRight: '1.6rem'}}>
             <div className='desktop-container'>
                 <WhiteDeptIcon /><ClosingIcon onClick={()=> setBoxVisibility(!boxVisibility)}/>
             </div>
