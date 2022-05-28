@@ -2,36 +2,27 @@
 @import '../../../assets/styles/mixins.scss';
 
 .mobile-container {
-    width: 100vw;
-    height: 100px;
-    background-color: $color-regular-black;
-    color: $color-white;
+    height: auto;
     display: flex;
     justify-content: space-between;
     padding: 3.1rem 1.6rem 0;
 }
 
 .list {
-  margin: 0 1.6rem 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
-.list-item {
-    @include tekoLarge;
-    text-transform: uppercase;
-    border-bottom: 1px solid $color-white;
-    background-color: $color-regular-black;
-    color: $color-white;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.first-item {
+.list-item-footer {
+  width: 95vw;
+  padding: 0 2.6rem 0;
   @include tekoLarge;
-    text-transform: uppercase;
-    border-bottom: 1px solid $color-white;
-    background-color: $color-regular-black;
-    color: $color-white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  border-bottom: 1px solid $color-light-grey;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.first-item-mobile {
+  align-items: center;
 }

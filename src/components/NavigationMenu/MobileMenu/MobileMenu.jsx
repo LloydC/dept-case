@@ -6,19 +6,16 @@ import './MobileMenu.scss';
 const MobileMenu = ({ boxVisibility, setBoxVisibility }) => {
     const menuItems = ["Home","Work", "Culture", "Services","Partners", "Stories", "Careers", "Events", "Contact"];
     return (
-        <div style ={{ height:'auto',display: 'flex', flexDirection: 'column', background: 'black'}}>
+        <div style ={{ width: '100vw', height:'100vh',display: 'flex', flexDirection: 'column', background: 'black', color: 'white'}}>
             <div className='mobile-container'>
                 <WhiteDeptIcon /><ClosingIcon onClick={()=> setBoxVisibility(!boxVisibility)}/>
             </div>
             <ul className='list'>
                 {menuItems.map((item, i) =>{
                     if(i === 0){
-                        return(<>
-                
-                        <li key={i} className='first-item'><ArrowIcon style={{ marginRight: '10.5px'}} />{item}</li>
-                        </>)
+                        return(<li key={i} className='list-item-footer first-item-mobile'><ArrowIcon style={{ marginRight: '10.5px'}} /><span>{item}</span></li>)
                     }
-                    return  <li key={i} className='list-item'>{item}</li>;
+                    return  <li key={i} className='list-item-footer'>{item}</li>;
                 })}
             </ul>
         </div>);
