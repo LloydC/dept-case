@@ -12,7 +12,7 @@ const DesktopFooter = () => {
     <div className='footer-desktop-container'>
         <div className="top-desktop">
             <div className="footer-menu-desktop">
-            <DeptWhiteIcon />
+            <DeptWhiteIcon style={{marginRight: '5rem'}} />
                 <ul>
                 {menu.map((item,i) => <li key={i} className='list-item-desktop'>{item}</li>)}
                 </ul>
@@ -24,10 +24,15 @@ const DesktopFooter = () => {
             </div>
         </div>
         <div className="bottom-desktop">
-            <span>Chamber of Commerce: 63464101</span>
-            <span>VAT: NL 8552.47.502.B01</span>
-            <span>Terms and conditions</span>
-            <span className='copyright'>© 2018 Dept Agency</span>
+            <div className='bottom-left'>
+                <span>Chamber of Commerce: 63464101</span>
+                <span>VAT: NL 8552.47.502.B01</span>
+                <span>Terms and conditions</span>
+            </div>
+            <div className='bottom-right'>
+                <span className='copyright'>© 2018 Dept Agency</span>
+            </div>
+            
         </div>
     </div>
   )

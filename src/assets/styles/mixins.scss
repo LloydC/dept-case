@@ -5,6 +5,12 @@
         @content;
     }
 }
+@mixin tekoMenu {
+    font-family: 'Teko', sans-serif;
+    font-size: $font4;
+    line-height: 26px;
+    color: $color-regular-black;
+}
 
 @mixin tekoBase {
     font-family: 'Teko', sans-serif;
