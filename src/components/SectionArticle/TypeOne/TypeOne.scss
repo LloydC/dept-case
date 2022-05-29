@@ -1,6 +1,7 @@
-@use '../../assets/styles/mixins.scss' as*;
+@use '../../../assets/styles/mixins.scss' as*;
 
 .articles-container {
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -9,7 +10,7 @@
     width: 51.6rem;
     display: flex;
     flex-direction: column;
-    margin: 0 2rem;
+    margin: 0 2rem ;
     margin-top: 3.3rem;
 
     @include media {
@@ -18,7 +19,8 @@
         justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 0 3.6rem;
+        margin: 0 auto;
+        // margin: 0 3.6rem;
         margin-top: 4.66rem;
     }
 }

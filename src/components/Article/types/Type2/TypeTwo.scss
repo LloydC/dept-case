@@ -1,21 +1,26 @@
 @use '../../../../assets/styles/mixins.scss' as*;
 
 .type-two-article {
-    width: 37.3rem;
+    // width: 37.3rem;
     border-top: 1px solid #DDDDDD;
-    // border-bottom: 1px solid #DDDDDD;
-    // margin-top: 3.2rem;
     margin-bottom: 3.2rem;
     padding-top: 3.2rem;
-    // padding-bottom: 3.6rem;
-    // padding-left: auto;
-    // padding-right: auto;
 
 
     // @include media {
     //     margin: 0;
     //     padding: 0;
     // }
+}
+
+.type-two-image {
+    width: 33.7rem;
+    height: 28.6rem;
+
+    @include media {
+    width: 51.1rem;
+    height: 46.6rem;
+    }
 }
 
 .type-two-company {

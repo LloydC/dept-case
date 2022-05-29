@@ -4,7 +4,7 @@ import './TypeTwo.scss';
 const index = ({ article }) => {
   return (
     <div className='type-two-article'>
-       <img className="article-image"
+       <img className="type-two-image"
           src={article?.image}
           alt={article?.title}
         />
