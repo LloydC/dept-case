@@ -34,14 +34,6 @@
                 "url": "https://www.kunstmuseum.nl/en"
             },
             {
-                "title": "Rethinking the entire online ecosystem",
-                "company": "florensis",
-                "image": "https://i.ibb.co/0MsBpNf/image40.jpg",
-                "articleType": "Type2",
-                "industry": "Plants Supplier",
-                "url": "https://www.florensis.com/en-gb"
-            },
-            {
                 "title": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
                 "company": "Microsoft",
                 "image": "",
@@ -56,6 +48,14 @@
                 "articleType": "Type3",
                 "industry": "Sports Wear",
                 "url": "https://us.oneill.com/"
+            },
+            {
+                "title": "Rethinking the entire online ecosystem",
+                "company": "florensis",
+                "image": "https://i.ibb.co/0MsBpNf/image40.jpg",
+                "articleType": "Type2",
+                "industry": "Plants Supplier",
+                "url": "https://www.florensis.com/en-gb"
             },
             {
                 "title": "Delivering clarity on a global scale",
@@ -69,25 +69,25 @@
                 "title": "Swipe to find your next holiday destination",
                 "company": "Tui",
                 "image": "https://i.ibb.co/9Gk4ktc/image39.jpg",
-                "articleType": "Type3",
+                "articleType": "Type1",
                 "industry": "Travel & Leisure",
                 "url": "https://www.tui.co.uk/"
             },
             {
-                "title": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
-                "company": "Microsoft",
+                "title": "Enhancing customer experience for personalised holiday planning using real time data",
+                "company": "Bultins",
                 "image": "",
                 "articleType": "Type3",
-                "industry": "Technology",
-                "url": "https://www.microsoft.com/"
+                "industry": "Travel",
+                "url": "https://www.bultins.com/"
             },
             {
-                "title": "Integrating existing content into O’Neills’s new e-commerce platform",
-                "company": "O'Neill",
+                "title": "Predicting booking behaviour for holidays with smart data, voice search and machine learning",
+                "company": "Vacanseselect",
                 "image": "",
                 "articleType": "Type3",
-                "industry": "Sports Wear",
-                "url": "https://us.oneill.com/"
+                "industry": "Travel",
+                "url": "https://www.vacanceselect.com/"
             },
             {
                 "title": "Rethinking the entire online ecosystem",

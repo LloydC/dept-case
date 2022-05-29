@@ -12,15 +12,15 @@ const Articles = ({ list }) => {
         <div className='display-options'>
         </div>
         <div className='articles-list'>
-            {articles.map((article) => {
+            {articles.map((article, i) => {
                 if(article?.articleType === 'Type1'){
-                    return <TypeOne key={article?.title} article={article} />
+                    return <TypeOne key={i} article={article} />
                 }
                 else if(article?.articleType === 'Type2'){
-                    return <TypeTwo key={article?.title} article={article} />
+                    return <TypeTwo key={i} article={article} />
                 }
                 else if(article?.articleType === 'Type3'){
-                    return <TypeThree key={article?.title} article={article} />
+                    return <TypeThree key={i} article={article} />
                 }
                 return null;
             })}
