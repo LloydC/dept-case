@@ -8,3 +8,9 @@ html{
         font-size: calc(10 / 1440 * 100vw);
     }
 }
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}

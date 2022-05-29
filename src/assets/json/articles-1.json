@@ -1,0 +1,134 @@
+{
+    "data": {
+        "en": [
+            {
+                "title": "A Summer island in the Netherlands",
+                "company": "bol.com",
+                "image": "https://i.ibb.co/xqDBZSP/image33.jpg",
+                "articleType": "Type1",
+                "industry": "Retail",
+                "url": "https://www.bol.com/"
+            },
+            {
+                "title": "Not some average banking website",
+                "company": "kempen",
+                "image": "https://i.ibb.co/1ZMsLvc/image35.jpg",
+                "articleType": "Type1",
+                "industry": "Corporate Finance",
+                "url": "https://www.kempen.com/"
+            },
+            {
+                "title": "Beautiful design meets innovative technology",
+                "company": "Philips",
+                "image": "https://i.ibb.co/7GzHXYD/image36.jpg",
+                "articleType": "Type1",
+                "industry": "Consumer Electronics",
+                "url": "https://www.philips.com/"
+            },
+            {
+                "title": "A 100 years of Mondriaan & De Stijl",
+                "company": "Gemeentemuseum",
+                "image": "https://i.ibb.co/wp6mk7Y/image37.jpg",
+                "articleType": "Type1",
+                "industry": "Museum",
+                "url": "https://www.kunstmuseum.nl/en"
+            },
+            {
+                "title": "Rethinking the entire online ecosystem",
+                "company": "florensis",
+                "image": "https://i.ibb.co/0MsBpNf/image40.jpg",
+                "articleType": "Type2",
+                "industry": "Plants Supplier",
+                "url": "https://www.florensis.com/en-gb"
+            },
+            {
+                "title": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+                "company": "Microsoft",
+                "image": "",
+                "articleType": "Type3",
+                "industry": "Technology",
+                "url": "https://www.microsoft.com/"
+            },
+            {
+                "title": "Integrating existing content into O’Neills’s new e-commerce platform",
+                "company": "O'Neill",
+                "image": "",
+                "articleType": "Type3",
+                "industry": "Sports Wear",
+                "url": "https://us.oneill.com/"
+            },
+            {
+                "title": "Delivering clarity on a global scale",
+                "company": "Be Lightning",
+                "image": "https://i.ibb.co/z7MY6rZ/image38.jpg",
+                "articleType": "Type1",
+                "industry": "Consumer Electronics",
+                "url": ""
+            },
+            {
+                "title": "Swipe to find your next holiday destination",
+                "company": "Tui",
+                "image": "https://i.ibb.co/9Gk4ktc/image39.jpg",
+                "articleType": "Type3",
+                "industry": "Travel & Leisure",
+                "url": "https://www.tui.co.uk/"
+            },
+            {
+                "title": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+                "company": "Microsoft",
+                "image": "",
+                "articleType": "Type3",
+                "industry": "Technology",
+                "url": "https://www.microsoft.com/"
+            },
+            {
+                "title": "Integrating existing content into O’Neills’s new e-commerce platform",
+                "company": "O'Neill",
+                "image": "",
+                "articleType": "Type3",
+                "industry": "Sports Wear",
+                "url": "https://us.oneill.com/"
+            },
+            {
+                "title": "Rethinking the entire online ecosystem",
+                "company": "florensis",
+                "image": "https://i.ibb.co/0MsBpNf/image40.jpg",
+                "articleType": "Type2",
+                "industry": "Plants Supplier",
+                "url": "https://www.florensis.com/en-gb"
+            },
+            {
+                "title": "A campaign for the limited edition letter packs",
+                "company": "Chocomel",
+                "image": "https://i.ibb.co/wpjLdkx/image41.jpg",
+                "articleType": "Type1",
+                "industry": "Food",
+                "url": "https://www.chocomel.com/"
+            },
+            {
+                "title": "Live like a champion with Jerome Boateng",
+                "company": "JBL",
+                "image": "https://i.ibb.co/hZ0VtCk/image42.jpg",
+                "articleType": "Type1",
+                "industry": "Consumer Electronics",
+                "url": "https://www.jbl.com/"
+            },
+            {
+                "title": "Innovative SEO and content strategy for Zalando",
+                "company": "Zalando",
+                "image": "https://i.ibb.co/bzkm4Mc/image43.jpg",
+                "articleType": "Type1",
+                "industry": "Retail",
+                "url": "https://www.zalando.com/"
+            },
+            {
+                "title": "The search of the most influential book ever",
+                "company": "Koninklijke Bibliotheek",
+                "image": "https://i.ibb.co/qphVdyS/image44.jpg",
+                "articleType": "Type1",
+                "industry": "Library",
+                "url": "https://www.kb.nl/"
+            }
+        ]
+    }
+}
