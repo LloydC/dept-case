@@ -1,4 +1,3 @@
-import './NavigationMenu.scss';
 import MobileMenu from './MobileMenu/MobileMenu';
 import DesktopMenu from './DesktopMenu/DesktopMenu';
 import useIsMobile from '../../utils/useIsMobile'; 
