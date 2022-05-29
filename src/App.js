@@ -1,6 +1,7 @@
 import Header from './components/Header/Header';
 import SectionArticle from './components/SectionArticle/TypeOne/TypeOne';
 import SectionArticleTypeTwo from './components/SectionArticle/TypeTwo/TypeTwo';
+import SectionQuote from './components/SectionQuote/SectionQuote';
 import Footer from './components/Footer/Footer';
 import firstList from './assets/json/articles-1.json';
 import secondList from './assets/json/articles-2.json';
@@ -21,6 +22,7 @@ function App() {
       <SectionArticle list={secondList} />
       <SectionArticleTypeTwo list={sixthList} changeOrder={true}/>
       <SectionArticle list={thirdList} />
+      <SectionQuote />
       <SectionArticle list={fourthList} />
       
       <Footer />

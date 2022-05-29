@@ -6,10 +6,11 @@ import './TypeTwo.scss';
 
 const TypeTwo = ({ list, changeOrder }) => {
     const isMobile = useIsMobile();
+    const flexDirection = isMobile ? 'column': 'row-reverse';
     const articles = list?.data?.en;
 
   return (
-    <div className='articles-two-container' style={ changeOrder && {flexDirection: isMobile ? 'column': 'row-reverse'}}>
+    <div className='articles-two-container' style={ changeOrder && {flexDirection}}>
         <div className='type-two-articles'>
             {articles.map((article, i) => {
                 if(article?.articleType === 'Type2'){
