@@ -1,14 +1,14 @@
 import React from 'react';
-import { ReactComponent as NiveaLogo } from '../../assets/icons/companies/nivea-logo.svg';
-import { ReactComponent as MonaLogo } from '../../assets/icons/companies/mona-logo.svg';
-import { ReactComponent as TransaviaLogo } from '../../assets/icons/companies/transavia-logo.svg';
-import { ReactComponent as ZalandoLogo } from '../../assets/icons/companies/zalando-logo.svg';
-import { ReactComponent as TomTomLogo } from '../../assets/icons/companies/tomtom-logo.svg';
-import { ReactComponent as UnileverLogo } from '../../assets/icons/companies/unilever-logo.svg';
+// import { ReactComponent as NiveaLogo } from '../../assets/icons/companies/nivea-logo.svg';
+// import { ReactComponent as MonaLogo } from '../../assets/icons/companies/mona-logo.svg';
+// import { ReactComponent as TransaviaLogo } from '../../assets/icons/companies/transavia-logo.svg';
+// import { ReactComponent as ZalandoLogo } from '../../assets/icons/companies/zalando-logo.svg';
+// import { ReactComponent as TomTomLogo } from '../../assets/icons/companies/tomtom-logo.svg';
+// import { ReactComponent as UnileverLogo } from '../../assets/icons/companies/unilever-logo.svg';
 import'./SectionClients.scss';
 
 const SectionClients = () => {
-    const logos = [<NiveaLogo/>, <MonaLogo/>, <TransaviaLogo/>, <ZalandoLogo />, <TomTomLogo/>, <UnileverLogo/>];
+   // const logos = [<NiveaLogo/>, <MonaLogo/>, <TransaviaLogo/>, <ZalandoLogo />, <TomTomLogo/>, <UnileverLogo/>];
   
     return (
     <div className='clients-container'>

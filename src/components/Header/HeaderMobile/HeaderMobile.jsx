@@ -11,7 +11,7 @@ const HeaderMobile = () => {
             <div className={'navigation'}>
                 <BlackDeptIcon/>
                 <div className='menu'>
-                    <span className="content">MENU</span>
+                    <span className="name">MENU</span>
                     <button className='hamburger' onClick={()=> setBoxVisibility(!boxVisibility)}>
                         <span className='dash'></span>
                         <span className='dash'></span>

@@ -3,6 +3,7 @@ import SectionArticle from './components/SectionArticle/TypeOne/TypeOne';
 import SectionArticleTypeTwo from './components/SectionArticle/TypeTwo/TypeTwo';
 import SectionQuote from './components/SectionQuote/SectionQuote';
 import SectionClients from './components/SectionClients/SectionClients';
+import SectionContact from './components/SectionContact/SectionContact';
 import Footer from './components/Footer/Footer';
 import firstList from './assets/json/articles-1.json';
 import secondList from './assets/json/articles-2.json';
@@ -26,6 +27,7 @@ function App() {
       <SectionQuote />
       <SectionArticle list={fourthList} />
       <SectionClients />
+      <SectionContact />
       <Footer />
     </div>
   );
